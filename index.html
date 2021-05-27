@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>la calcoholadora</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <img src="lacan.png">
+    <h1>la calcoholadora</h1>
+    <h2>primera opción</h2>
+    
+    <div class="o">  
+        <div>
+        tamaño del envase  <select id="b">
+        <option value="1">un litro</option>
+        <option value="2">botellón (750ml)</option>
+        <option value="3">pinta (500ml)</option>
+        <option value="4">botella o lata (330ml)</option>
+    </select>
+        </div>
+    <div>unidades        <input type="text" id="u"></div>
+    <div>% de alcohol    <input type="text" id="c"></div>
+    <div>precio          <input type="text" id="p"></div>
+    </div>
+
+    <h2>segunda opción</h2>
+
+    <div class="o">
+        <div>
+            tamaño del envase  <select id="b1">
+            <option value="1">un litro</option>
+            <option value="2">botellón (750ml)</option>
+            <option value="3">pinta (500ml)</option>
+            <option value="4">botella o lata (330ml)</option>
+    </select>
+        </div>
+    <div>unidades        <input type="text" id="u1"></div>
+    <div>% de alcohol    <input type="text" id="c1"></div>
+    <div>precio          <input type="text" id="p1"></div>
+    </div>
+
+    <div>
+       <p> <button type="button" onclick="br()">brrr</button></p>
+    </div>
+
+<p id="r"></p>
+
+</body>
+<script src="cal.js"></script>
+</html>

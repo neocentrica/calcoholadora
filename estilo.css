@@ -1,0 +1,6 @@
+body {background-color:ivory;  margin: 0 auto; text-align: center;}
+
+.o {display: flex; justify-content: center;}
+
+@media screen and (max-width: 600px) {.o {display: block;}
+}
