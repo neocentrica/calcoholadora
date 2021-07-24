@@ -2,50 +2,75 @@
 <html lang="es">
 <head>
     <title>la calcoholadora</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="para emborracharse mejor">
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="shortcut icon" type="image/png" href="favcao.png">
 </head>
 <body>
-    <!--<img src="lacan.png">-->
+    <img src="coh.png">
     <h1>la calcoholadora</h1>
-    <h2>primera opción</h2>
-    
+    <h2>para emborracharse mejor</h2>
+
+    <h3>primera opción</h3>
     <div class="o">  
         <div>
-        tamaño del envase  <select id="b">
-        <option value="1">un litro</option>
-        <option value="2">botellón (750ml)</option>
-        <option value="3">pinta (500ml)</option>
-        <option value="4">botella o lata (330ml)</option>
-    </select>
+            tamaño del envase  <br>
+            <select id="b">
+                <option value="1">un litro</option>
+                <option value="2">botellón (750ml)</option>
+                <option value="3">pinta (500ml)</option>
+                <option value="4">botella o lata (330ml)</option>
+            </select>
         </div>
-    <div>unidades        <input type="text" id="u"></div>
-    <div>% de alcohol    <input type="text" id="c"></div>
-    <div>precio          <input type="text" id="p"></div>
+        <div>
+            unidades        <br>
+            <input type="text" id="u" size="14">
+        </div>
+        <div>
+            % de alcohol   <br>
+            <input type="text" id="c" size="14">
+        </div>
+        <div>
+            precio         <br>
+            <input type="text" id="p" size="14">
+        </div>
     </div>
 
-    <h2>segunda opción</h2>
-
+    <h3>segunda opción</h3>
     <div class="o">
         <div>
-            tamaño del envase  <select id="b1">
-            <option value="1">un litro</option>
-            <option value="2">botellón (750ml)</option>
-            <option value="3">pinta (500ml)</option>
-            <option value="4">botella o lata (330ml)</option>
-    </select>
+            tamaño del envase  <br>
+            <select id="b1">
+                <option value="1">un litro</option>
+                <option value="2">botellón (750ml)</option>
+                <option value="3">pinta (500ml)</option>
+                <option value="4">botella o lata (330ml)</option>
+            </select>
         </div>
-    <div>unidades        <input type="text" id="u1"></div>
-    <div>% de alcohol    <input type="text" id="c1"></div>
-    <div>precio          <input type="text" id="p1"></div>
+        <div>
+            unidades        <br>
+            <input type="text" id="u1" size="14">
+        </div>
+        <div>
+            % de alcohol    <br>
+            <input type="text" id="c1" size="14">
+        </div>
+        <div>
+            precio          <br>
+            <input type="text" id="p1" size="14">
+        </div>
     </div>
 
     <div>
-       <p> <button type="button" onclick="br()">brrr</button></p>
+       <button type="button" onclick="br()">brrr</button>
     </div>
 
-<p id="r"></p>
+    <p id="r"></p>
+
+<script src="cal.js">
+</script>
 
 </body>
-<script src="cal.js"></script>
 </html>
