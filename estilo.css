@@ -1,6 +1,7 @@
 body {background-color:ivory;  margin: 0 auto; text-align: center;}
-
+div {padding: 0.4em;}
 .o {display: flex; justify-content: center;}
+img {width: 150px;}
 
 @media screen and (max-width: 600px) {.o {display: block;}
 }
